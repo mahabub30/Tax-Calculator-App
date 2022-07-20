@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/income2"
+    tools:context=".SpotAssessment"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Spot Assessment"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/osworld"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="ব্যবসার ক্ষেত্রে: "
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="প্রারম্ভিক পুঁজির পরিমাণ 6 লক্ষ টাকা পর্যন্ত হলে আয় করের পরিমাণ হবে 3 হাজার টাকা এবং এর জন্য প্রযোজ্য এলাকাগুলো হচ্ছে সিটি করপোরেশন ও জেলা সদরে অবস্থিত পৌরসভা ব্যতীত অন্যান্য এলাকা. "
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="প্রারম্ভিক পুঁজির পরিমাণ  সাত লক্ষ টাকা পর্যন্ত হলে আয় করের পরিমাণ হবে 3500 টাকা এবং এর জন্য এলাকাগুলো হচ্ছে জেলা সদরে অবস্থিত পৌরসভা এবং সিটি কর্পোরেশন ব্যতীত অন্যান্য এলাকা."
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="প্রারম্ভিক পরিমাণ 8 লক্ষ টাকা পর্যন্ত আয় করের পরিমাণ হবে চার হাজার টাকা এবং এর জন্য প্রযোজ্য এলাকা হচ্ছে যে কোন এলাকা."
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="পেশার ক্ষেত্রে:"
+                android:layout_marginTop="30dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text=" পেশায় নিয়োজিত থাকার সময়কাল তিন বছর পর্যন্ত হলে আয় করের পরিমাণ হচ্ছে তিন হাজার টাকা এবং এর জন্য প্রযোজ্য এলাকা হচ্ছে সিটি কর্পোরেশন উপজেলা সদরে অবস্থিত পৌরসভা ব্যতীত অন্যান্য এলাকা."
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="পেশায় নিয়োজিত থাকার সময়কাল 4 বৎসর পর্যন্ত হলে আয় করের পরিমাণ হচ্ছে 3500 টাকা এবং এর জন্য প্রযোজ্য লেখাগুলো হচ্ছে জেলাসদর অবস্থিত পৌরসভা এবং সিটি কর্পোরেশন ব্যতীত অন্যান্য এলাকা."
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="
+ পেশায় নিয়োজিত থাকা সময়কাল 5 বছর পর্যন্ত হলে আয় করের পরিমাণ হবে চার হাজার টাকা এবং এর জন্য প্রযোজ্য এলাকা হচ্ছে যে কোন এলাকায়.
+"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text=" পেশায় নিয়োজিত থাকা সমান 10 বছর পর্যন্ত হলে আয় করের পরিমাণ হবে 5 হাজার টাকা এবং এর জন্য প্রযোজ্য এলাকাগুলো হচ্ছে যে কোন এলাকা"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

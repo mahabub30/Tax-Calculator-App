@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/income2"
+    tools:context=".Taxguidline"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Tax Guildline"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/osworld"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="আয়কর রিটার্ন কি?"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:text=" কর্তৃপক্ষের নিকট একজন কর্তা তার বার্ষিক আয় এর তথ্যাবলি নির্ধারিত ফরমে উপস্থাপন করার মাধ্যম হচ্ছে আয়কর রিটার্ন।আয়কর রিটার্ন ফরম এর কাঠামো আয়কর বিধি দ্বারা নির্দিষ্ট করা  আছে। আয়কর আইন অনুযায়ী জাতীয় রাজস্ব বোর্ড কর্তৃক নির্ধারিত ফরমে আয়কর রিটার্ন দাখিল করতে হবে।"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="25dp"
+                android:text="আয়কর রিটার্ন তারা দাখিল করবেন?"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:text="সাধারণভাবে কোনো  ব্যক্তিক করদাতার আয় যদি বছরে  আড়াই লাখ টাকার বেশি হয় তবে তাকে রিটার্ন দাখিল করতে হবে। মহিলা এবং ৬৫ বছর বয়সের আয় যদি বছরে তিন লাখ টাকার বেশি প্রতিবন্ধিতা তারাই যদি বছরে ৩ লাখ ৭৫ হাজার টাকার বেশি এবং মুক্তিযোদ্ধা গেজেট প্রকৃত যুদ্ধাহত মুক্তিযোদ্ধা করদাতারা যদি বছরে ৪ লাখ ২৫ হাজার টাকার বেশি হয় তাহলে তাকে আয়কর রিটার্ন দাখিল করতে হবে।তবে নিম্নবর্ণিত ক্ষেত্রসমূহ এর পরিমাণ যাই হোক না কেন ব্যক্তিগত থেকে সংশ্লিষ্ট আয় বছরের জন্য আবশ্যিকভাবে আয়কর রিটার্ন দাখিল করতে হবে-"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="25dp"
+                android:text="১। যদি আয় বছরের করদাতার মোট আয় করমুক্ত সীমা অতিক্রম করেন"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:text="২। আইবছরের পূর্ববর্তী তিন বছরের যে কোন বছর করদাতার কর নির্ধারণ হয়ে থাকে আর  তার আয় করযোগ্য হয়ে থাকে"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:text="৩। করদাতা যদি-
+  # কোন কোম্পানির শেয়ারহোল্ডার পরিচালক বা শেয়ার হোল্ডার এর  এমপ্লয় হন
+ #  কোন ফার্মের অংশীদার হোন
+ #  সরকার অথবা সরকারের কোনো কর্তৃপক্ষ কর্পোরেশন ইউনিটের বা পরিচিত কোন আইন আদেশ দলিলের মাধ্যমে গঠিত কোন কর্তৃপক্ষ কর্পোরেশন সত্তা ইউনিটের কর্মচারী হয়ে আয় বছরের যেকোনো সময় ১৬০০০ টাকা বা তদূর্ধ্ব পরিমাণ মূল বেতন আহরণ করে থাকেন
+"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="25dp"
+                android:text="রিটার্ন ফরম কোথায় পাওয়া যাবে?"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:text=" সকল আয়কর অফিস এ আয়কর রিটার্ন ফরম পাওয়া যায়। একজন করদাতা সারাবছর বিনামূল্যে আয়কর অফিস থেকে রিটার্ন ফরম সংগ্রহ করতে পারেন। জাতীয় রাজস্ব বোর্ডের ওয়েবসাইট www.nbr.gov.bd  রিটার্ন ফরম ডাউনলোড করা যাবে।   রিটার্ন এর ফটোকপি গ্রহণযোগ্য। "
+                android:textColor="#000000"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
